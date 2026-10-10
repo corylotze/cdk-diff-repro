@@ -1,0 +1,6 @@
+Resources:
+  Param:
+    Type: AWS::SSM::Parameter
+    Properties:
+      Type: String
+      Value: '{"a":"1","b":"2"}'
